@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+
+body {
+  color: rgb(0, 0, 0);
+  background-color: rgb(109, 121, 114);
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#main {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+p,
+a {
+  text-align: justify;
+}
+
+
+#titreBoutique {
+  color: #0e141a;
+  border-bottom: 2px solid rgba(60, 207, 195, 0.801);
+  margin-bottom: 20px;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+
+#imageBoutique {
+  display: inline;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+#titreBoutique:hover {
+  color: rgb(11, 31, 143);
+
+}
+
+.styleTitreNiv2 {
+  border-bottom: 2px solid rgba(60, 207, 195, 0.801);
+  display: inline;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+#caraPrincipales ul {
+  list-style-type: none;
+  padding: 0px;
+  text-align: left;
+}
+
+#caraPrincipales li {
+  background-color: #e6e6e6;
+  margin: 0 10px;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+
+
+
+#listeCGU a,
+#listeCGU ol {
+  text-align: left;
+  color: rgb(92, 73, 104);
+  text-decoration: none;
+}
+
+#listeCGU :hover a {
+
+  text-decoration: underline;
+
+}
+
+
+
+table {
+  width: 320px;
+  margin: auto;
+  border: none;
+}
+
+caption {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.colonne {
+  padding: 10px;
+}
+
+button {
+  background-color: #6b8fad;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 12px;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+button :hover {
+  color: rgb(195, 195, 27);
+}
